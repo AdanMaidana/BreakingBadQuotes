@@ -1,0 +1,70 @@
+body {
+  height: 100vh;
+  font-family: 'Bebas Neue', sans-serif;
+  background: linear-gradient(to right, black 0%, black 69.6%, rgb(255, 213, 4) 69.6%);
+  font-size: 16px;
+}
+
+main {
+  background: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/24/102205-Walter_White-Breaking_Bad.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.btn:hover,
+i:hover {
+  opacity: 0.9;
+}
+
+#quote {
+  color: rgb(172, 172, 34);
+  font-size: 36px;
+  font-weight: bold;
+
+  @media (max-width: 576px) {
+    font-size: 24px;
+  }
+}
+
+#quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(20, 119, 43);
+
+  @media (max-width: 576px) {
+    font-size: 15px;
+  }
+}
+
+#madeBy {
+  font-size: 20px;
+
+  @media (max-width: 576px) {
+    font-size: 12px;
+  }
+}
+
+#adan {
+  font-size: 24px;
+
+  @media (max-width: 576px) {
+    font-size: 15px;
+  }
+}
+
+i {
+  font-size: 28px;
+
+  @media (max-width: 576px) {
+    font-size: 16px;
+  }
+}
+
+.btn {
+  font-size: 20px;
+
+  @media (max-width: 576px) {
+    font-size: 13px;
+  }
+}
