@@ -73,6 +73,10 @@ async function loadInitialQuote() {
     const data = await response.json();
     quote.textContent = data[0].quote;
     quoteAuthor.textContent = `- ${data[0].author}`;
+
+    // Compartir en Twitter
+    twitterShare.href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(quote.textContent)}%0D%0A${encodeURIComponent(quoteAuthor.textContent)}`;
+    
   } catch (error) {
     console.error('Error:', error);
   }
